@@ -1,110 +1,144 @@
 ﻿
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
+using Android.Content.Res;
 using Android.Views;
 using Android.Widget;
+using Android.OS;
+using Android.Support.V4.View;
+using Android.Support.V7.Widget;
+using DrawerLayout = Android.Support.V4.Widget.DrawerLayout;
+using ActionBarDrawerToggle = Android.Support.V7.App.ActionBarDrawerToggle;
+using AppCompatActivity = Android.Support.V7.App.AppCompatActivity;
+using Toolbar = Android.Support.V7.Widget.Toolbar;
+using Fragment = Android.App.Fragment;
+using Android.App;
 
 namespace EfesioApp.Droid
 {
-    [Activity(Label = "@string/app_name", MainLauncher = true)]
-    public class MainActivity : Activity, AdapterView.IOnItemClickListener
+    [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/ic_launcher")]
+    public class MainActivity : AppCompatActivity, PlanetAdapter.IOnItemClickListener
     {
-        internal Sample[] mSamples;
-        internal GridView mGridView;
+        private DrawerLayout mDrawerLayout;
+        private RecyclerView mDrawerList;
+        private Toolbar mToolbar;
+        private ActionBarDrawerToggle mDrawerToggle;
+        private string mDrawerTitle;
+        private String[] mPlanetTitles;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
 
-            // Prepare list of samples in this dashboard.
-            mSamples = new Sample[] {
-                new Sample (Resource.String.navigationdraweractivity_title,
-                    Resource.String.navigationdraweractivity_description,
-                    this,
-                    typeof(NavigationDrawerActivity)),
-            };
+            mToolbar = FindViewById<Toolbar>(Resource.Id.mToolbar);
+            SetSupportActionBar(mToolbar);
+            this.SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            this.SupportActionBar.SetHomeButtonEnabled(true);
 
-            // Prepare the GridView
-            mGridView = FindViewById<GridView>(Android.Resource.Id.List);
-            mGridView.Adapter = new SampleAdapter(this);
-            mGridView.OnItemClickListener = this;
+            mDrawerTitle = this.Title;
+            mPlanetTitles = this.Resources.GetStringArray(Resource.Array.planets_array);
+            mDrawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+            mDrawerList = FindViewById<RecyclerView>(Resource.Id.left_drawer);
+
+            mDrawerLayout.SetDrawerShadow(Resource.Drawable.drawer_shadow, GravityCompat.Start);
+            mDrawerList.HasFixedSize = true;
+            mDrawerList.SetLayoutManager(new LinearLayoutManager(this));
+
+            mDrawerList.SetAdapter(new PlanetAdapter(mPlanetTitles, this));
+          
+
+            mDrawerToggle = new ActionBarDrawerToggle(
+              this, mDrawerLayout, mToolbar, Resource.String.drawer_open, Resource.String.drawer_close);
+
+            mDrawerLayout.AddDrawerListener(mDrawerToggle);
+
+            var fragment = AgendaFragment.NewInstance();
+            var fragmentManager = this.SupportFragmentManager;
+            var ft = fragmentManager.BeginTransaction();
+            ft.Replace(Resource.Id.content_frame, fragment);
+            ft.Commit();
+
         }
 
-        public void OnItemClick(AdapterView container, View view, int position, long id)
-        {
-            StartActivity(mSamples[position].intent);
-        }
-    }
-
-    internal class SampleAdapter : BaseAdapter
+    public override bool OnCreateOptionsMenu(IMenu menu)
     {
-        private MainActivity owner;
-
-        public SampleAdapter(MainActivity owner) : base()
-        {
-            this.owner = owner;
-        }
-
-        public override int Count
-        {
-            get
-            {
-                return owner.mSamples.Length;
-            }
-        }
-
-
-        public override Java.Lang.Object GetItem(int position)
-        {
-            return owner.mSamples[position];
-        }
-
-        public override long GetItemId(int position)
-        {
-            return (long)owner.mSamples[position].GetHashCode();
-        }
-
-        public override View GetView(int position, View convertView, ViewGroup container)
-        {
-            if (convertView == null)
-            {
-                convertView = owner.LayoutInflater.Inflate(Resource.Layout.sample_dashboard_item, container, false);
-            }
-            convertView.FindViewById<TextView>(Android.Resource.Id.Text1).SetText(owner.mSamples[position].titleResId);
-            convertView.FindViewById<TextView>(Android.Resource.Id.Text2).SetText(owner.mSamples[position].descriptionResId);
-            return convertView;
-        }
+        MenuInflater.Inflate(Resource.Menu.navigation_drawer, menu);
+        return true;
     }
 
-    internal class Sample : Java.Lang.Object
+    public override bool OnPrepareOptionsMenu(IMenu menu)
     {
-        internal int titleResId;
-        internal int descriptionResId;
-        internal Intent intent;
+        // If the nav drawer is open, hide action items related to the content view
+        bool drawerOpen = mDrawerLayout.IsDrawerOpen(mDrawerList);
+        menu.FindItem(Resource.Id.action_websearch).SetVisible(!drawerOpen);
+        return base.OnPrepareOptionsMenu(menu);
+    }
 
-        public Sample(int titleResId, int descriptionResId, Intent intent)
+    public override bool OnOptionsItemSelected(IMenuItem item)
+    {
+        // The action bar home/up action should open or close the drawer.
+        // ActionBarDrawerToggle will take care of this.
+        if (mDrawerToggle.OnOptionsItemSelected(item))
         {
-            Initialize(titleResId, descriptionResId, intent);
+            return true;
         }
-
-        public Sample(int titleResId, int descriptionResId, Context c, Type t)
+        // Handle action buttons
+        switch (item.ItemId)
         {
-            Initialize(titleResId, descriptionResId, new Intent(c, t));
-        }
+            case Resource.Id.action_websearch:
+                Intent intent = new Intent(Intent.ActionWebSearch);
+                intent.PutExtra(SearchManager.Query, this.SupportActionBar.Title);
+                if (intent.ResolveActivity(this.PackageManager) != null)
+                {
+                    StartActivity(intent);
+                }
+                else
+                {
+                    Toast.MakeText(this, Resource.String.app_not_available, ToastLength.Long).Show();
+                }
+                return true;
+               
+                case Resource.Id.menu_login:
+                Intent intentLogin = new Intent(this, typeof(Login));
+                // intentLogin.PutExtra(SearchManager.Query, this.SupportActionBar.Title);
+                StartActivity(intentLogin);
+                    if (intentLogin.ResolveActivity(PackageManager) == null)
+                    {
+                        Toast.MakeText(this, "Não abriu", ToastLength.Long).Show();
+                    }
+                
+                return true;
 
-        private void Initialize(int titleResId, int descriptionResId, Intent intent)
-        {
-            this.intent = intent;
-            this.titleResId = titleResId;
-            this.descriptionResId = descriptionResId;
+                default:
+                return base.OnOptionsItemSelected(item);
         }
     }
+
+    public void OnClick(View view, int position)
+    {
+  
+    }
+
+    protected override void OnTitleChanged(Java.Lang.ICharSequence title, Android.Graphics.Color color)
+    {
+        this.SupportActionBar.Title = title.ToString();
+    }
+
+  
+    protected override void OnPostCreate(Bundle savedInstanceState)
+    {
+        base.OnPostCreate(savedInstanceState);
+        mDrawerToggle.SyncState();
+    }
+
+    public override void OnConfigurationChanged(Configuration newConfig)
+    {
+        base.OnConfigurationChanged(newConfig);
+        mDrawerToggle.OnConfigurationChanged(newConfig);
+    }
+
+   }
 }
 

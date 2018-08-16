@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>15/08/2018 19:30:31</xs:documentation>
+    <xs:documentation>16/08/2018 19:28:03</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -1451,6 +1451,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -1476,6 +1479,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2080,6 +2084,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -2105,6 +2112,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2646,6 +2654,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -2671,6 +2682,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3189,6 +3201,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -3214,6 +3229,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5083,6 +5099,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -5108,6 +5127,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5626,6 +5646,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -5651,6 +5674,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6255,6 +6279,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -6280,6 +6307,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7250,6 +7278,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -7275,6 +7306,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -7793,6 +7825,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -7818,6 +7853,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9426,6 +9462,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -9451,6 +9490,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10027,6 +10067,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -10052,6 +10095,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10570,6 +10614,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -10595,6 +10642,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -11113,6 +11161,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -11138,6 +11189,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -11656,6 +11708,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -11681,6 +11736,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12241,6 +12297,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -12266,6 +12325,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12784,6 +12844,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -12809,6 +12872,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13411,6 +13475,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -13436,6 +13503,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14183,6 +14251,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -14208,6 +14279,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -14797,6 +14869,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -14822,6 +14897,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15525,6 +15601,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -15550,6 +15629,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16253,6 +16333,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -16278,6 +16361,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16796,6 +16880,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -16821,6 +16908,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17975,6 +18063,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -18000,6 +18091,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18604,6 +18696,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -18629,6 +18724,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19233,6 +19329,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -19258,6 +19357,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -20238,6 +20338,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -20263,6 +20366,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -21326,6 +21430,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -21351,6 +21458,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -21869,6 +21977,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -21894,6 +22005,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22582,6 +22694,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -22607,6 +22722,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23310,6 +23426,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -23335,6 +23454,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23865,6 +23985,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -23890,6 +24013,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24593,6 +24717,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -24618,6 +24745,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -25546,6 +25674,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -25571,6 +25702,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -26089,6 +26221,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -26114,6 +26249,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28877,6 +29013,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -28902,6 +29041,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -31298,6 +31438,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -31323,6 +31466,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -32026,6 +32170,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -32051,6 +32198,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -32569,6 +32717,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -32594,6 +32745,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -33358,6 +33510,9 @@
             <xs:enumeration value="@drawable/earth" />
             <xs:enumeration value="@drawable/ic_drawer" />
             <xs:enumeration value="@drawable/ic_launcher" />
+            <xs:enumeration value="@drawable/icons8-lock-24" />
+            <xs:enumeration value="@drawable/icons8-lock-24 (1)" />
+            <xs:enumeration value="@drawable/icons8-person-24" />
             <xs:enumeration value="@drawable/jupiter" />
             <xs:enumeration value="@drawable/mars" />
             <xs:enumeration value="@drawable/mercury" />
@@ -33383,6 +33538,7 @@
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
             <xs:enumeration value="@drawable/tooltip_frame_light" />
             <xs:enumeration value="@drawable/uranus" />
+            <xs:enumeration value="@drawable/user_profile" />
             <xs:enumeration value="@drawable/venus" />
             <xs:enumeration value="@mipmap/icon" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />

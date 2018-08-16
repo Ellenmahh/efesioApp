@@ -24,7 +24,7 @@ namespace EfesioApp.Droid
         }
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-            View itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.Agenda, parent, false);
+            View itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.fragment_agenda_item, parent, false);
             PhotoViewHolder vh = new PhotoViewHolder(itemView, OnClick);
             return vh;
         }

@@ -1,0 +1,11 @@
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\EfesioApp.UWP.csprojAssemblyReference.cache
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\App.g.i.cs
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\App.g.cs
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\MainPage.g.i.cs
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\MainPage.g.cs
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\XamlTypeInfo.g.cs
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\App.xaml
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\MainPage.xaml
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\App.xbf
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\MainPage.xbf
+C:\Users\i5\Documents\EfesioApp\EfesioApp\EfesioApp\EfesioApp.UWP\obj\x64\Release\XamlSaveStateFile.xml

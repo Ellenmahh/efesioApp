@@ -2284,8 +2284,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F090053
 			public const int abc_vector_test = 2131296339;
 			
-			// aapt resource value: 0x7F010012
-			public const int action_search = 2130771986;
+			// aapt resource value: 0x7F010016
+			public const int action_search = 2130771990;
 			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
@@ -2311,32 +2311,35 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010013
-			public const int drawer_shadow = 2130771987;
+			// aapt resource value: 0x7F010017
+			public const int drawer_shadow = 2130771991;
 			
 			// aapt resource value: 0x7F010002
 			public const int earth = 2130771970;
 			
-			// aapt resource value: 0x7F010014
-			public const int ic_drawer = 2130771988;
+			// aapt resource value: 0x7F010018
+			public const int ic_drawer = 2130771992;
 			
-			// aapt resource value: 0x7F010015
-			public const int ic_launcher = 2130771989;
+			// aapt resource value: 0x7F010019
+			public const int ic_launcher = 2130771993;
 			
 			// aapt resource value: 0x7F010003
 			public const int jupiter = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int mars = 2130771972;
+			public const int @lock = 2130771972;
 			
 			// aapt resource value: 0x7F010005
-			public const int mercury = 2130771973;
+			public const int mars = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int mercury = 2130771974;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
 			
-			// aapt resource value: 0x7F010006
-			public const int neptune = 2130771974;
+			// aapt resource value: 0x7F010007
+			public const int neptune = 2130771975;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -2374,20 +2377,23 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010017
-			public const int sample_dashboard_item_background = 2130771991;
-			
-			// aapt resource value: 0x7F010007
-			public const int saturn = 2130771975;
+			// aapt resource value: 0x7F010021
+			public const int sample_dashboard_item_background = 2130772001;
 			
 			// aapt resource value: 0x7F010008
-			public const int thanos = 2130771976;
+			public const int saturn = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int thor = 2130771977;
+			public const int search = 2130771977;
 			
-			// aapt resource value: 0x7F010016
-			public const int tile = 2130771990;
+			// aapt resource value: 0x7F010010
+			public const int thanos = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int thor = 2130771985;
+			
+			// aapt resource value: 0x7F010020
+			public const int tile = 2130772000;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2395,11 +2401,17 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
 			
-			// aapt resource value: 0x7F010010
-			public const int uranus = 2130771984;
+			// aapt resource value: 0x7F010012
+			public const int uranus = 2130771986;
 			
-			// aapt resource value: 0x7F010011
-			public const int venus = 2130771985;
+			// aapt resource value: 0x7F010013
+			public const int user = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int user_profile = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int venus = 2130771989;
 			
 			static Drawable()
 			{
@@ -2505,8 +2517,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C0004
 			public const int action_text = 2131492868;
 			
-			// aapt resource value: 0x7F030010
-			public const int action_websearch = 2130903056;
+			// aapt resource value: 0x7F020016
+			public const int action_websearch = 2130837526;
 			
 			// aapt resource value: 0x7F0C0014
 			public const int activity_chooser_view_content = 2131492884;
@@ -2529,6 +2541,9 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F020014
+			public const int btn_login = 2130837524;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
@@ -2550,8 +2565,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
-			// aapt resource value: 0x7F030003
-			public const int content_frame = 2130903043;
+			// aapt resource value: 0x7F020005
+			public const int content_frame = 2130837509;
 			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
@@ -2583,8 +2598,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F030002
-			public const int drawer_layout = 2130903042;
+			// aapt resource value: 0x7F020002
+			public const int drawer_layout = 2130837506;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -2622,12 +2637,11 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F030005
-			public const int image = 2130903045;
-           
-
-            // aapt resource value: 0x7F030007
-            public const int imaged = 2130903047;
+			// aapt resource value: 0x7F020008
+			public const int image = 2130837512;
+			
+			// aapt resource value: 0x7F020010
+			public const int imaged = 2130837520;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -2644,8 +2658,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C003D
 			public const int left = 2131492925;
 			
-			// aapt resource value: 0x7F030004
-			public const int left_drawer = 2130903044;
+			// aapt resource value: 0x7F020006
+			public const int left_drawer = 2130837510;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -2659,11 +2673,20 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
+			// aapt resource value: 0x7F020011
+			public const int login_title = 2130837521;
+			
+			// aapt resource value: 0x7F020012
+			public const int login_user = 2130837522;
+			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
+			
+			// aapt resource value: 0x7F020017
+			public const int menu_login = 2130837527;
 			
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
@@ -2671,14 +2694,14 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
+			// aapt resource value: 0x7F020004
+			public const int mToolbar = 2130837508;
+			
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
-			
-			// aapt resource value: 0x7F030009
-			public const int nav_main = 2130903049;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2704,6 +2727,9 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
+			// aapt resource value: 0x7F020013
+			public const int password_user = 2130837523;
+			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
@@ -2716,8 +2742,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F030008
-			public const int recyclerView = 2130903048;
+			// aapt resource value: 0x7F020007
+			public const int recyclerView = 2130837511;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2848,8 +2874,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F030006
-			public const int textView = 2130903046;
+			// aapt resource value: 0x7F020009
+			public const int textView = 2130837513;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2865,6 +2891,9 @@ namespace EfesioApp.Droid
 			
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
+			
+			// aapt resource value: 0x7F020003
+			public const int toolbar_layout = 2130837507;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -2895,6 +2924,9 @@ namespace EfesioApp.Droid
 			
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
+			
+			// aapt resource value: 0x7F020015
+			public const int user_profile_photo = 2130837525;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3039,14 +3071,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F020002
-			public const int activity_main = 2130837506;
-			
-			// aapt resource value: 0x7F020003
-			public const int activity_navigation_drawer = 2130837507;
-			
-			// aapt resource value: 0x7F020004
-			public const int Agenda = 2130837508;
+			// aapt resource value: 0x7F030002
+			public const int activity_main = 2130903042;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -3090,14 +3116,20 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F020005
-			public const int drawer_list_item = 2130837509;
+			// aapt resource value: 0x7F030003
+			public const int drawer_list_item = 2130903043;
 			
-			// aapt resource value: 0x7F020006
-			public const int fragment_planet = 2130837510;
+			// aapt resource value: 0x7F030004
+			public const int fragment_agenda = 2130903044;
 			
-			// aapt resource value: 0x7F020007
-			public const int Main = 2130837511;
+			// aapt resource value: 0x7F030005
+			public const int fragment_agenda_item = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int fragment_planet = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int login_auth = 2130903047;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3144,8 +3176,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F020008
-			public const int sample_dashboard_item = 2130837512;
+			// aapt resource value: 0x7F030008
+			public const int sample_dashboard_item = 2130903048;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3171,24 +3203,24 @@ namespace EfesioApp.Droid
 			{
 			}
 		}
-
-        public partial class Menu
-        {
-
-            // aapt resource value: 0x7f0c0000
-            public const int navigation_drawer = 2131492864;
-
-            static Menu()
-            {
-                global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-            }
-
-            private Menu()
-            {
-            }
-        }
-
-        public partial class Mipmap
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7F040002
+			public const int navigation_drawer = 2130968578;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
+		public partial class Mipmap
 		{
 			
 			// aapt resource value: 0x7F050002
@@ -3382,8 +3414,14 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
+			// aapt resource value: 0x7F100003
+			public const int AppTheme = 2131755011;
+			
 			// aapt resource value: 0x7F100004
-			public const int AppTheme = 2131755012;
+			public const int AppTheme_AppBarOverlay = 2131755012;
+			
+			// aapt resource value: 0x7F100005
+			public const int AppTheme_PopupOverlay = 2131755013;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -4279,11 +4317,8 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F16012B
 			public const int Theme_Design_NoActionBar = 2132148523;
 			
-			// aapt resource value: 0x7F100003
-			public const int Theme_Sample = 2131755011;
-			
-			// aapt resource value: 0x7F100005
-			public const int Widget = 2131755013;
+			// aapt resource value: 0x7F100006
+			public const int Widget = 2131755014;
 			
 			// aapt resource value: 0x7F16012C
 			public const int Widget_AppCompat_ActionBar = 2132148524;
@@ -4540,23 +4575,23 @@ namespace EfesioApp.Droid
 			// aapt resource value: 0x7F160180
 			public const int Widget_Design_TextInputLayout = 2132148608;
 			
-			// aapt resource value: 0x7F100006
-			public const int Widget_SampleContentContainer = 2131755014;
-			
-			// aapt resource value: 0x7F100008
-			public const int Widget_SampleDashboard_Grid = 2131755016;
+			// aapt resource value: 0x7F100007
+			public const int Widget_SampleContentContainer = 2131755015;
 			
 			// aapt resource value: 0x7F100009
-			public const int Widget_SampleDashboard_Item = 2131755017;
-			
-			// aapt resource value: 0x7F100011
-			public const int Widget_SampleDashboard_Item_Description = 2131755025;
+			public const int Widget_SampleDashboard_Grid = 2131755017;
 			
 			// aapt resource value: 0x7F100010
-			public const int Widget_SampleDashboard_Item_Title = 2131755024;
+			public const int Widget_SampleDashboard_Item = 2131755024;
 			
-			// aapt resource value: 0x7F100007
-			public const int Widget_SampleMessage = 2131755015;
+			// aapt resource value: 0x7F100012
+			public const int Widget_SampleDashboard_Item_Description = 2131755026;
+			
+			// aapt resource value: 0x7F100011
+			public const int Widget_SampleDashboard_Item_Title = 2131755025;
+			
+			// aapt resource value: 0x7F100008
+			public const int Widget_SampleMessage = 2131755016;
 			
 			static Style()
 			{
